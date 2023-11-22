@@ -1,4 +1,6 @@
 TUGAS 9
+
+
 Menjawab beberapa pertanyaan berikut pada README.md pada root folder:
     1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
         - jawabannya bisa, dengan menggunakan fungsi jsonDecode dari pustaka dart:convert yang dapat mengubah string JSON menjadi Map . Kemudian, kita bisa mengakses nilai-nilai yang kita butuhkan dari map tersebut dengan menggunakan kunci-kunci yang sesuai. 
