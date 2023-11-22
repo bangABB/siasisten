@@ -1,3 +1,27 @@
+TUGAS 9
+Menjawab beberapa pertanyaan berikut pada README.md pada root folder:
+    1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+        - jawabannya bisa, dengan menggunakan fungsi jsonDecode dari pustaka dart:convert yang dapat mengubah string JSON menjadi Map . Kemudian, kita bisa mengakses nilai-nilai yang kita butuhkan dari map tersebut dengan menggunakan kunci-kunci yang sesuai. 
+    2. Jelaskan fungsi dari CookieRequest dan jelaskan mengapa instance CookieRequest perlu untuk dibagikan ke semua komponen di aplikasi Flutter.
+        - CookieRequest adalah kelas yang digunakan untuk mengelola cookies dalam aplikasi Flutter. Fungsi utamanya adalah untuk menyimpan dan mengambil cookies yang digunakan saat berinteraksi dengan server web. Instance CookieRequest perlu dibagikan ke semua komponen di aplikasi Flutter karena cookies sering digunakan untuk otentikasi pengguna, pelacakan sesi, dan menyimpan preferensi pengguna. Dengan membagikan instance yang sama, kita memastikan bahwa semua komponen aplikasi memiliki akses ke informasi yang sama dan konsisten.
+    3. Jelaskan mekanisme pengambilan data dari JSON hingga dapat ditampilkan pada Flutter.
+        - a. ambil data json dengan post atau get 
+          b. data json diuraikan ke bentuk paket objek atau struktur data, di tutorial kita menggunakan jsonDecode()
+          c. objek dapat langsung digunakan di flutter, kita listviewkan atau card
+    4. Jelaskan mekanisme autentikasi dari input data akun pada Flutter ke Django hingga selesainya proses autentikasi oleh Django dan tampilnya menu pada Flutter.
+        - 
+        - Pertama, pengguna memasukkan data akun mereka (biasanya email dan kata sandi) melalui form di aplikasi Flutter.
+        - Kedua, data ini kemudian dikirim ke server Django, biasanya melalui HTTP POST.
+        - Ketiga, Django kemudian memverifikasi data ini dengan data yang ada di database. Jika data cocok, Django akan mengirimkan balasan yang    mengkonfirmasi bahwa autentikasi berhasil.
+        - Keempat, aplikasi Flutter kemudian menerima balasan ini dan, jika autentikasi berhasil, menu ditampilkan kepada pengguna. Jika autentikasi gagal, pesan kesalahan ditampilkan.
+    5. Sebutkan seluruh widget yang kamu pakai pada tugas ini dan jelaskan fungsinya masing-masing.
+        - Tidak kelar
+    6. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step
+        - Tidak Kelar
+
+
+
+
 TUGAS 8
 1. Push: tanpa mengganti layar sebelumnya, Replace : menggantikan layar yang skerang di show
 2.  - Container  
